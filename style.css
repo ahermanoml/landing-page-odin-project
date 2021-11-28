@@ -1,0 +1,32 @@
+/*stylesheet*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.s1 {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.s2 {
+
+}
+
+.s3 {
+
+}
+
+.s4 {
+
+}
+
+.footer {
+    background-color: #1f2937;
+}
