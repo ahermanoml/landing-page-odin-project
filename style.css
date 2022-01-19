@@ -4,33 +4,33 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .header {
     display: flex;
     background-color: #1f2937;
-    color: #e5e7eb;
     align-items: center;
-    justify-content: center;
-    gap: 40% ;
+    justify-content: space-around;
 }
 
-. header h1 {
+.logo {
     flex-basis: 35%;
-    font: 240px;
+    font-size: 24px;
     color: #f9faf8;
 }
 
 .header-links {
-    display: flex;
-    color: white;
     flex-basis: 35%;
+    display: flex;
+    color: #e5e7eb;
     font: 18px;
     gap: 15px;
 }
 
-a {
-    color: white;
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 .s1 {
@@ -42,13 +42,23 @@ a {
 }
 
 .s1-left {
+    flex-basis: 35%;
     display: flex;
+    align-items:baseline;
     flex-direction: column;
-    flex-basis: 40%;
-}
+    gap: -15px;
+    }
 
 .s1-right {
-    flex-basis: 40%;
+    flex-basis: 35%;
+    flex-direction: column;
+    height: 238px;
+    width: 523px;
+    background-color: turquoise;
+}
+
+button {
+    width: fit-content;
 }
 
 .s2 {
