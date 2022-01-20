@@ -1,5 +1,11 @@
 /*stylesheet*/
 
+
+html {
+    box-sizing: border-box;
+}
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,50 +17,70 @@ body {
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
 }
 
-.logo {
-    flex-basis: 35%;
+.header .logo h1{
     font-size: 24px;
     color: #f9faf8;
 }
 
-.header-links {
-    flex-basis: 35%;
+.header .header-links {
     display: flex;
     color: #e5e7eb;
     font: 18px;
-    gap: 15px;
+    gap: 10px;
 }
 
-.header-links a {
+.header .header-links a {
     text-decoration: none;
     color: #e5e7eb;
 }
 
 .s1 {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: #1f2937;
     font-size: 18px;
-    color: #e5e7eb;
-    display: flex;
-    justify-content: space-around;
+    color: #e5e7eb;   
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 50px;
 }
 
 .s1-left {
     flex-basis: 35%;
     display: flex;
-    align-items:baseline;
     flex-direction: column;
-    gap: -15px;
+    
     }
+
+.s1-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.s1-left button {
+    background-color: #3882f6;
+}
 
 .s1-right {
     flex-basis: 35%;
     flex-direction: column;
-    height: 238px;
+    height: 222px;
     width: 523px;
-    background-color: turquoise;
+}
+
+.s1-right img {
+    height: 222px;
+    width: 400px;
 }
 
 button {
