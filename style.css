@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    box-sizing: border-box;
 }
 
 .header {
@@ -96,27 +95,56 @@ button {
 }
 
 .s2 {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 200px 100px 200px;
+    text-align: center;
+}
+
+.s2 h1 {
+    font-size: 36px; 
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .s2 .cards {
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 
 .s2 .cards .card {
     flex-basis: 15%;
-    border: 2px solid blue;
+    box-sizing: content-box;
 
 }
 
 .card img {
-    max-width: 155px;
+    max-width: 200px;
+    border-radius: 10px;
 }
 
 .s3 {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
 }
+
+.s3 blockquote {
+    flex-basis: 20%;
+    border: solid 2px blue;
+}
+
+.s3 cite {
+    flex-basis: content;
+}
+
 
 .s4 {
 
