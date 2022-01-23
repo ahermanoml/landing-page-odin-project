@@ -54,6 +54,8 @@ body {
 
 .s1-left {
     flex-basis: 45%;
+    flex-grow: 1;
+    flex-shrink: 1;
     display: flex;
     flex-direction: column;
     
@@ -73,6 +75,8 @@ body {
 
 .s1-right {
     flex-basis: 45%;
+    flex-grow: 1;
+    flex-shrink: 1;
     flex-direction: column;
     height: 222px;
     width: 523px;
@@ -127,9 +131,11 @@ button {
 
 .s3 {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: light italic;
@@ -137,12 +143,16 @@ button {
 }
 
 .s3 blockquote {
-    flex-basis: 20%;
-    border: solid 2px blue;
+    flex-basis: 70%;
+    margin-bottom: 0px;
 }
 
 .s3 cite {
     flex-basis: content;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: 15%;
 }
 
 
