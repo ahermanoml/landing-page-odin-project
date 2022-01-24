@@ -157,7 +157,31 @@ button {
 
 
 .s4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 80px 50px 80px;
+    
+}
 
+.s4 #callaction {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 80px 40px 80px;
+    border-radius: 10px;
+}
+
+#cactiontext h1, p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #e5e7eb;
+}
+
+.s4 button {
+    border: solid white;
+    margin-left: auto;
 }
 
 .footer {
