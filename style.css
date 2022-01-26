@@ -13,6 +13,7 @@ body {
 }
 
 .header {
+    flex: 1;
     display: flex;
     background-color: #1f2937;
     align-items: center;
@@ -39,6 +40,7 @@ body {
 }
 
 .s1 {
+    flex-wrap: wrap;
     display: flex; 
     justify-content: center;
     gap: 10%;
@@ -54,8 +56,6 @@ body {
 
 .s1-left {
     flex-basis: 45%;
-    flex-grow: 1;
-    flex-shrink: 1;
     display: flex;
     flex-direction: column;
     
@@ -75,16 +75,15 @@ body {
 
 .s1-right {
     flex-basis: 45%;
-    flex-grow: 1;
-    flex-shrink: 1;
     flex-direction: column;
     height: 222px;
     width: 523px;
 }
 
 .s1-right img {
-    height: 233px;
-    width: 516px;
+    max-height: 233px;
+    max-width: 516px;
+    margin: 10px;
 }
 
 button {
@@ -99,6 +98,7 @@ button {
 }
 
 .s2 {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -116,11 +116,13 @@ button {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    color: black;
 }
 
 .s2 .cards .card {
     flex-basis: 15%;
     box-sizing: content-box;
+    color: black;
 
 }
 
@@ -130,6 +132,7 @@ button {
 }
 
 .s3 {
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -157,9 +160,10 @@ button {
 
 
 .s4 {
+    flex: 1;
     display: flex;
     justify-content: center;
-    padding: 50px 80px 50px 80px;
+    padding: 70px 80px 70px 80px;
     
 }
 
@@ -173,7 +177,7 @@ button {
     border-radius: 10px;
 }
 
-#cactiontext h1, p {
+#cactiontext.h1, #cactiontext.p {
     margin-bottom: 0px;
     margin-top: 0px;
     color: #e5e7eb;
@@ -185,5 +189,11 @@ button {
 }
 
 .footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
     background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
